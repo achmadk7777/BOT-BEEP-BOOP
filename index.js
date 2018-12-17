@@ -9,6 +9,20 @@ const prefix = '</';
 
 var bot = new Discord.Client();
 
+var bot = new Discord.Client();
+ 
+var btrue = new Boolean(true);
+
+var btrueString = new Boolean('true');
+
+var bfalseString = new Boolean('false');
+
+var bSuLin = new Boolean('Su Lin');
+
+var bArrayProto = new Boolean([]);
+
+var bObjProto = new Boolean({});
+
 bot.on('message', async message => {
 
     let msg = message.content.toUpperCase();
