@@ -1,0 +1,11 @@
+{
+  "name": "beep",
+  "version": "1.0.0",
+  "description": "BEEP BOOP",
+  "main": "index.js",
+  "author": "Me",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
